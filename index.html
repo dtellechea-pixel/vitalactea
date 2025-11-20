@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitaláctea | Transparencia Total del Lote</title>
+    <style>
+        /* Paleta de Colores de Vitaláctea (Ajustar según tu Etapa 4) */
+        :root {
+            --color-azul: #61b1c3; /* Azul Cielo */
+            --color-rosa: #f5b1c9; /* Rosa Pastel */
+            --color-rojo: #e30022; /* Rojo Acento */
+            --color-blanco: #ffffff;
+            --color-texto: #333333;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: var(--color-blanco);
+            color: var(--color-texto);
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: var(--color-blanco);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            color: var(--color-azul);
+            font-size: 2.2em;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: var(--color-texto);
+            font-weight: normal;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        .mission {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 30px;
+            text-align: left;
+            border-left: 5px solid var(--color-rosa);
+        }
+
+        /* Estilo de la Tabla de Trazabilidad */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .data-table th, .data-table td {
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .data-table th {
+            background-color: var(--color-azul);
+            color: var(--color-blanco);
+            font-weight: bold;
+            width: 40%;
+        }
+
+        .data-table td {
+            background-color: #f9f9f9;
+            font-weight: 500;
+        }
+
+        /* Estilo para los datos clave */
+        .highlight {
+            font-weight: bold;
+            color: var(--color-rojo);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Vitaláctea</h1>
+            <h2 class="subtitle">🔍 Tu Leche. Tu Origen. Transparencia Total.</h2>
+        </header>
+
+        <section class="mission">
+            <p>
+                En Vitaláctea, creemos que mereces saber de dónde viene exactamente lo que consumes. Nuestra 
+                **Trazabilidad por Bloque** es nuestro compromiso con la **confianza y la seguridad** de tu familia. 
+                Usamos la tecnología para abrir las puertas de nuestro campo, garantizando la calidad desde el origen hasta tu mesa.
+            </p>
+        </section>
+
+        <h2>🐄 Datos de Producción y Origen</h2>
+
+        <table class="data-table">
+            <tr>
+                <th>Código Único del Envase</th>
+                <td><span class="highlight">VITA-LCT-10250-AR</span></td>
+            </tr>
+            <tr>
+                <th>Fecha Exacta de Producción</th>
+                <td><span class="highlight">20/11/2025</span></td>
+            </tr>
+            <tr>
+                <th>Lote de Vacas Productoras</th>
+                <td><span class="highlight">Bloque G-4</span> (Monitoreadas por su bienestar y calidad.)</td>
+            </tr>
+            <tr>
+                <th>Establecimiento de Origen</th>
+                <td>Campo La Estancia, Pcia. de Buenos Aires, Argentina.</td>
+            </tr>
+            <tr>
+                <th>Verificación</th>
+                <td>Calidad certificada por el SENASA.</td>
+            </tr>
+        </table>
+        
+        <footer>
+            <p style="color: gray; font-size: 0.8em;">¡Este código es único e irrepetible! Escaneá el próximo envase para ver los nuevos datos.</p>
+        </footer>
+    </div>
+</body>
+</html>
