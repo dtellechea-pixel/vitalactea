@@ -92,6 +92,30 @@
             color: var(--color-rojo);
         }
 
+        /* Estilos para el botón de retorno */
+        .return-home-container {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px dashed #ccc;
+        }
+
+        .return-home-button {
+            display: inline-block;
+            background-color: var(--color-rosa); /* Usamos tu color de acento */
+            color: var(--color-texto);
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 0.95em;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .return-home-button:hover {
+            background-color: var(--color-azul); /* Cambio de color al pasar el mouse */
+            color: white;
+        }
+
     </style>
 </head>
 <body>
@@ -133,6 +157,12 @@
                 <td>Calidad certificada por el SENASA.</td>
             </tr>
         </table>
+
+        <div class="return-home-container">
+            <a href="https://dtellechea-pixel.github.io/vitalactea-homepage/" class="return-home-button">
+                Volver a la Web Oficial de Vitaláctea
+            </a>
+        </div>
         
         <footer>
             <p style="color: gray; font-size: 0.8em;">¡Este código es único e irrepetible! Escaneá el próximo envase para ver los nuevos datos.</p>
@@ -140,6 +170,7 @@
     </div>
 </body>
 </html>
+
 
 
 
